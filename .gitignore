@@ -1,0 +1,7 @@
+/Scalar-Classify-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
