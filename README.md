@@ -151,15 +151,3 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 See http://dev.perl.org/licenses/ for more information.
-
-# POD ERRORS
-
-Hey! **The above document had some coding errors, which are explained below:**
-
-- Around line 56:
-
-    '=item' outside of any '=over'
-
-- Around line 135:
-
-    You forgot a '=back' before '=head1'
