@@ -55,6 +55,8 @@ L<Data::Math> project.
 
 None by default. Optionally:
 
+=over
+
 =cut
 
 use 5.008;
@@ -265,6 +267,8 @@ sub classify_pair {
 
 
 1;
+
+=back
 
 =head1 SEE ALSO
 
