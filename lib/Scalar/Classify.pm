@@ -4,7 +4,7 @@ package Scalar::Classify;
 
 =head1 NAME
 
-Scalar::Classify - given a scalar, examine it's type and class
+Scalar::Classify - get type and class information for scalars
 
 =head1 SYNOPSIS
 
@@ -24,8 +24,6 @@ Scalar::Classify - given a scalar, examine it's type and class
 
   # If a given ref was undef, replace it with a default value
   classify_pair( $arg1, $arg2, { also_qualify => 1 });
-
-
 
 =head1 DESCRIPTION
 
@@ -283,11 +281,10 @@ Joseph Brenner, E<lt>doom@kzsu.stanford.eduE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2015 by Joseph Brenner
+Copyright (C) 2016 by Joseph Brenner
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 See http://dev.perl.org/licenses/ for more information.
 
