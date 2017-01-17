@@ -37,12 +37,20 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Data::Dumper" : "0",
+            "Exporter" : "0",
+            "Scalar::Util" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "FindBin" : "0",
+            "Test::Deep" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0.96",
+            "lib" : "0"
          }
       }
    },
