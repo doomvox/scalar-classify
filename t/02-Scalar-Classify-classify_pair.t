@@ -6,18 +6,17 @@ use strict;
 $|=1;
 my $DEBUG = 1;              # TODO set to 0 before ship
 use Data::Dumper;
-use File::Path      qw( mkpath );
-use File::Basename  qw( fileparse basename dirname );
-use File::Copy      qw( copy move );
-use Fatal           qw( open close mkpath copy move );
-use Cwd             qw( cwd abs_path );
-use Env             qw( HOME );
-use List::MoreUtils qw( any );
+# use File::Path      qw( mkpath );
+# use File::Basename  qw( fileparse basename dirname );
+# use File::Copy      qw( copy move );
+# use Fatal           qw( open close mkpath copy move );
+# use Cwd             qw( cwd abs_path );
+# use Env             qw( HOME );
+# use List::MoreUtils qw( any );
 
 use Test::More;
 use Test::Deep qw( cmp_deeply ); #
 
-use FindBin qw($Bin);
 use FindBin qw( $Bin );
 use lib "$Bin/../lib";
 use_ok( 'Scalar::Classify', qw( classify classify_pair ) );
@@ -145,5 +144,3 @@ use_ok( 'Scalar::Classify', qw( classify classify_pair ) );
 
 
 done_testing();
-
-
